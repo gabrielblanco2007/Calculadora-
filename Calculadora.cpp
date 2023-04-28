@@ -14,5 +14,17 @@ int main()
     cout << "Porfavor escribe la operacion a ejecutar. Ejemplo:  a+b | a-b | a*b | a/b "
         << endl;
     return 0;
+
+//imprimir resultado//
+
+   Calculadora c;
+    while (true)
+    {
+        cin >> x >> oper >> y;
+        result = c.Calcular(x, oper, y);
+        cout << "El resultado " << "de la operacion" << x << oper << y << " es: " << result << endl;
+    }
+
+    return 0;
 }
 
