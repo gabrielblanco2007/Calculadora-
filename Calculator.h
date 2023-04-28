@@ -1,11 +1,11 @@
-#pragma once 
-#include "Calculadora.h"
-
-class Calculadora
+#pragma once
+class Calculator
 {
 public:
-    
-double Calculadora::Calcular(double x, char oper, double y)
+    double Calculate(double x, char oper, double y);
+};
+
+double Calculator::Calculate(double x, char oper, double y)
 {
     switch(oper)
     {
@@ -21,4 +21,3 @@ double Calculadora::Calcular(double x, char oper, double y)
             return 0.0;
     }
 }
-};
