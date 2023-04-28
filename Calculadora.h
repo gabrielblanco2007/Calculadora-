@@ -4,7 +4,6 @@
 class Calculadora
 {
 public:
-    double Calcular(double x, char oper, double y);
     
 double Calculadora::Calcular(double x, char oper, double y)
 {
